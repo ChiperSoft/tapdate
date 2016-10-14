@@ -45,11 +45,11 @@ module.exports = exports = function tapdate (t) {
 
 		if (!found) {
 			extra.found = f;
-			return this.fail('First argument for dateAfter is not a date');
+			return this.fail('First argument for dateBefore is not a date');
 		}
 		if (!wanted) {
 			extra.found = w;
-			return this.fail('Second argument for dateAfter is not a date');
+			return this.fail('Second argument for dateBefore is not a date');
 		}
 
 		if (found.unix() < wanted.unix()) {
@@ -69,11 +69,11 @@ module.exports = exports = function tapdate (t) {
 
 		if (!found) {
 			extra.found = f;
-			return this.fail('First argument for dateAfter is not a date');
+			return this.fail('First argument for dateSame is not a date');
 		}
 		if (!wanted) {
 			extra.found = w;
-			return this.fail('Second argument for dateAfter is not a date');
+			return this.fail('Second argument for dateSame is not a date');
 		}
 
 		var diff = wanted.diff(found, unit || 'second');
@@ -94,11 +94,11 @@ module.exports = exports = function tapdate (t) {
 
 		if (!found) {
 			extra.found = f;
-			return this.fail('First argument for dateAfter is not a date');
+			return this.fail('First argument for dateNear is not a date');
 		}
 		if (!wanted) {
 			extra.found = w;
-			return this.fail('Second argument for dateAfter is not a date');
+			return this.fail('Second argument for dateNear is not a date');
 		}
 
 		var diff = Math.abs(wanted.diff(found, 'seconds'));
