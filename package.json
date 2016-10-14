@@ -1,12 +1,22 @@
 {
   "name": "tapdate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A date comparison assertion extension for node-tap",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "keywords": ["tap", "node-tap", "date", "near", "within", "assert", "assertion", "test", "testing"],
+  "keywords": [
+    "tap",
+    "node-tap",
+    "date",
+    "near",
+    "within",
+    "assert",
+    "assertion",
+    "test",
+    "testing"
+  ],
   "author": "Jarvis Badgley <chiper@chipersoft.com> (http://chipersoft.com/)",
   "license": "MIT",
   "repository": {
