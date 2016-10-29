@@ -33,6 +33,6 @@
     "tap": "7.x"
   },
   "devDependencies": {
-    "tap": "~7.1.2"
+    "tap": "~8.0.0"
   }
 }
