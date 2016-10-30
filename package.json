@@ -4,7 +4,8 @@
   "description": "A date comparison assertion extension for node-tap",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "test:travis": "npm run test"
   },
   "keywords": [
     "tap",
@@ -30,7 +31,7 @@
     "moment": "^2.15.1"
   },
   "peerDependencies": {
-    "tap": "7.x"
+    "tap": ">= 7.0"
   },
   "devDependencies": {
     "tap": "~8.0.0"
