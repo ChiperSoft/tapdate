@@ -3,7 +3,7 @@ var moment = require('moment');
 function validDate(d) {
 	if (moment.isMoment(d)) return d;
 	if (d instanceof Date) return moment(d);
-	if (typeof d === 'string') {
+	if (typeof d === 'string' || typeof d === 'number') {
 		d = moment(new Date(d));
 		return d.isValid() && d;
 	}
