@@ -18,14 +18,14 @@
     "test",
     "testing"
   ],
-  "author": "Jarvis Badgley <chiper@chipersoft.com> (http://chipersoft.com/)",
+  "author": "Jocelyn Badgley <joc@twipped.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChiperSoft/tapdate.git"
+    "url": "https://github.com/Twipped/tapdate.git"
   },
   "bugs": {
-    "url": "https://github.com/ChiperSoft/tapdate/issues"
+    "url": "https://github.com/Twipped/tapdate/issues"
   },
   "dependencies": {
     "moment": "~2.x"
